@@ -1,0 +1,175 @@
+2014/03/03 00:28:43 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: Loading user properties from: /usr/share/jmeter/bin/user.properties 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: Loading system properties from: /usr/share/jmeter/bin/system.properties 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: Copyright (c) 1998-2012 The Apache Software Foundation 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: Version 2.8.20130705 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: java.version=1.5.0 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: java.vm.name=GNU libgcj 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: os.name=Linux 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: os.arch=x86_64 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: os.version=3.11.0-12-generic 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: JMeterHome=/usr/share/jmeter 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: user.dir  =/usr/share/nginx/html/idpdemo/predictorsbin/iupred 
+2014/03/03 00:28:43 INFO  - jmeter.JMeter: PWD       =/usr/share/nginx/html/idpdemo/predictorsbin/iupred 
+2014/03/03 00:28:48 INFO  - jmeter.JMeter: IP: 127.0.1.1 Name: iqbal-VirtualBox FullName: iqbal-VirtualBox 
+2014/03/03 00:28:49 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2014/03/03 00:28:49 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2014/03/03 00:28:49 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2014/03/03 00:28:49 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform, System] 
+2014/03/03 00:28:50 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2014/03/03 00:28:51 WARN  - jmeter.gui.util.MenuFactory: Could not instantiate org.apache.jmeter.assertions.BSFAssertion java.lang.ArrayIndexOutOfBoundsException: 0
+   at java.beans.Introspector.merge(libgcj.so.14)
+   at java.beans.Introspector.getBeanInfo(libgcj.so.14)
+   at org.apache.jmeter.testbeans.BeanInfoSupport.<init>(BeanInfoSupport.java:101)
+   at org.apache.jmeter.util.ScriptingBeanInfoSupport.<init>(ScriptingBeanInfoSupport.java:33)
+   at org.apache.jmeter.util.BSFBeanInfoSupport.<init>(BSFBeanInfoSupport.java:43)
+   at org.apache.jmeter.assertions.BSFAssertionBeanInfo.<init>(BSFAssertionBeanInfo.java:26)
+   at java.lang.Class.newInstance(libgcj.so.14)
+   at java.beans.ExplicitInfo.getBeanInfo(libgcj.so.14)
+   at java.beans.ExplicitInfo.reallyFindExplicitBeanInfo(libgcj.so.14)
+   at java.beans.ExplicitInfo.findExplicitBeanInfo(libgcj.so.14)
+   at java.beans.ExplicitInfo.<init>(libgcj.so.14)
+   at java.beans.Introspector.getBeanInfo(libgcj.so.14)
+   at java.beans.Introspector.getBeanInfo(libgcj.so.14)
+   at org.apache.jmeter.testbeans.gui.TestBeanGUI.<init>(TestBeanGUI.java:168)
+   at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:451)
+   at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:159)
+   at java.lang.Class.initializeClass(libgcj.so.14)
+   at org.apache.jmeter.control.gui.WorkBenchGui.createPopupMenu(WorkBenchGui.java:86)
+   at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:158)
+   at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46)
+   at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:79)
+   at org.apache.jmeter.gui.action.ActionRouter.access$000(ActionRouter.java:40)
+   at org.apache.jmeter.gui.action.ActionRouter$1.run(ActionRouter.java:61)
+   at java.awt.event.InvocationEvent.dispatch(libgcj.so.14)
+   at java.awt.EventQueue.dispatchEvent(libgcj.so.14)
+   at java.awt.EventDispatchThread.run(libgcj.so.14)
+
+2014/03/03 00:28:51 ERROR - jmeter.gui.util.MenuFactory:  java.lang.ArrayIndexOutOfBoundsException: 0
+   at java.beans.Introspector.merge(libgcj.so.14)
+   at java.beans.Introspector.getBeanInfo(libgcj.so.14)
+   at org.apache.jmeter.testbeans.BeanInfoSupport.<init>(BeanInfoSupport.java:101)
+   at org.apache.jmeter.util.ScriptingBeanInfoSupport.<init>(ScriptingBeanInfoSupport.java:33)
+   at org.apache.jmeter.util.BSFBeanInfoSupport.<init>(BSFBeanInfoSupport.java:43)
+   at org.apache.jmeter.assertions.BSFAssertionBeanInfo.<init>(BSFAssertionBeanInfo.java:26)
+   at java.lang.Class.newInstance(libgcj.so.14)
+   at java.beans.ExplicitInfo.getBeanInfo(libgcj.so.14)
+   at java.beans.ExplicitInfo.reallyFindExplicitBeanInfo(libgcj.so.14)
+   at java.beans.ExplicitInfo.findExplicitBeanInfo(libgcj.so.14)
+   at java.beans.ExplicitInfo.<init>(libgcj.so.14)
+   at java.beans.Introspector.getBeanInfo(libgcj.so.14)
+   at java.beans.Introspector.getBeanInfo(libgcj.so.14)
+   at org.apache.jmeter.testbeans.gui.TestBeanGUI.<init>(TestBeanGUI.java:168)
+   at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:451)
+   at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:159)
+   at java.lang.Class.initializeClass(libgcj.so.14)
+   at org.apache.jmeter.control.gui.WorkBenchGui.createPopupMenu(WorkBenchGui.java:86)
+   at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:158)
+   at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46)
+   at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:79)
+   at org.apache.jmeter.gui.action.ActionRouter.access$000(ActionRouter.java:40)
+   at org.apache.jmeter.gui.action.ActionRouter$1.run(ActionRouter.java:61)
+   at java.awt.event.InvocationEvent.dispatch(libgcj.so.14)
+   at java.awt.EventQueue.dispatchEvent(libgcj.so.14)
+   at java.awt.EventDispatchThread.run(libgcj.so.14)
+
+2014/03/03 00:29:33 ERROR - jmeter.gui.action.ActionRouter: Error processing org.apache.jmeter.gui.action.Close@777a2c61 java.lang.NullPointerException
+   at javax.swing.JTree.removeDescendantSelectedPaths(libgcj.so.14)
+   at javax.swing.JTree$TreeModelHandler.treeNodesRemoved(libgcj.so.14)
+   at javax.swing.tree.DefaultTreeModel.fireTreeNodesRemoved(libgcj.so.14)
+   at javax.swing.tree.DefaultTreeModel.nodesWereRemoved(libgcj.so.14)
+   at javax.swing.tree.DefaultTreeModel.removeNodeFromParent(libgcj.so.14)
+   at org.apache.jmeter.gui.tree.JMeterTreeModel.clearTestPlan(JMeterTreeModel.java:220)
+   at org.apache.jmeter.gui.tree.JMeterTreeModel.clearTestPlan(JMeterTreeModel.java:205)
+   at org.apache.jmeter.gui.GuiPackage.clearTestPlan(GuiPackage.java:669)
+   at org.apache.jmeter.gui.action.Close.closeProject(Close.java:100)
+   at org.apache.jmeter.gui.action.Close.performAction(Close.java:93)
+   at org.apache.jmeter.gui.action.Close.doAction(Close.java:67)
+   at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:79)
+   at org.apache.jmeter.gui.action.ActionRouter.access$000(ActionRouter.java:40)
+   at org.apache.jmeter.gui.action.ActionRouter$1.run(ActionRouter.java:61)
+   at java.awt.event.InvocationEvent.dispatch(libgcj.so.14)
+   at java.awt.EventQueue.dispatchEvent(libgcj.so.14)
+   at java.awt.EventDispatchThread.run(libgcj.so.14)
+
+2014/03/03 00:29:34 ERROR - jmeter.gui.action.ActionRouter: Error processing org.apache.jmeter.gui.action.CheckDirty@71acba61 java.lang.ArrayIndexOutOfBoundsException: 0 >= 0
+   at java.util.Vector.raiseBoundsError(libgcj.so.14)
+   at java.util.Vector.checkBoundExclusive(libgcj.so.14)
+   at java.util.Vector.elementAt(libgcj.so.14)
+   at javax.swing.tree.DefaultMutableTreeNode.getChildAt(libgcj.so.14)
+   at org.apache.jmeter.gui.tree.JMeterTreeModel.getTestPlan(JMeterTreeModel.java:195)
+   at org.apache.jmeter.gui.action.CheckDirty.doAction(CheckDirty.java:105)
+   at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:79)
+   at org.apache.jmeter.gui.action.ActionRouter.doActionNow(ActionRouter.java:112)
+   at org.apache.jmeter.gui.action.Close.performAction(Close.java:77)
+   at org.apache.jmeter.gui.action.Close.doAction(Close.java:67)
+   at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:79)
+   at org.apache.jmeter.gui.action.ActionRouter.access$000(ActionRouter.java:40)
+   at org.apache.jmeter.gui.action.ActionRouter$1.run(ActionRouter.java:61)
+   at java.awt.event.InvocationEvent.dispatch(libgcj.so.14)
+   at java.awt.EventQueue.dispatchEvent(libgcj.so.14)
+   at java.awt.EventDispatchThread.run(libgcj.so.14)
+
+2014/03/03 00:29:34 ERROR - jmeter.gui.action.ActionRouter: Error processing org.apache.jmeter.gui.action.Close@777a2c61 java.lang.NullPointerException
+   at javax.swing.JTree.removeDescendantSelectedPaths(libgcj.so.14)
+   at javax.swing.JTree$TreeModelHandler.treeStructureChanged(libgcj.so.14)
+   at javax.swing.tree.DefaultTreeModel.fireTreeStructureChanged(libgcj.so.14)
+   at javax.swing.tree.DefaultTreeModel.nodeStructureChanged(libgcj.so.14)
+   at org.apache.jmeter.gui.tree.JMeterTreeModel.initTree(JMeterTreeModel.java:241)
+   at org.apache.jmeter.gui.tree.JMeterTreeModel.clearTestPlan(JMeterTreeModel.java:224)
+   at org.apache.jmeter.gui.tree.JMeterTreeModel.clearTestPlan(JMeterTreeModel.java:205)
+   at org.apache.jmeter.gui.GuiPackage.clearTestPlan(GuiPackage.java:669)
+   at org.apache.jmeter.gui.action.Close.closeProject(Close.java:100)
+   at org.apache.jmeter.gui.action.Close.performAction(Close.java:93)
+   at org.apache.jmeter.gui.action.Close.doAction(Close.java:67)
+   at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:79)
+   at org.apache.jmeter.gui.action.ActionRouter.access$000(ActionRouter.java:40)
+   at org.apache.jmeter.gui.action.ActionRouter$1.run(ActionRouter.java:61)
+   at java.awt.event.InvocationEvent.dispatch(libgcj.so.14)
+   at java.awt.EventQueue.dispatchEvent(libgcj.so.14)
+   at java.awt.EventDispatchThread.run(libgcj.so.14)
+
+2014/03/03 00:30:09 INFO  - jmeter.services.FileServer: Default base='/usr/share/nginx/html/idpdemo/predictorsbin/iupred' 
+2014/03/03 00:30:09 INFO  - jmeter.services.FileServer: Set new base='/usr/share/nginx/html/idpdemo/predictorsbin/iupred' 
+2014/03/03 00:30:09 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2014/03/03 00:30:09 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2014/03/03 00:30:09 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.3 
+2014/03/03 00:30:09 WARN  - jmeter.save.SaveService: Can't register a converter: org.apache.jmeter.protocol.http.sampler.HTTPSamplerBaseConverter java.lang.ClassNotFoundException: org.apache.jmeter.protocol.http.sampler.HTTPSamplerBaseConverter not found in org.apache.jmeter.DynamicClassLoader{urls=[file:/usr/share/jmeter/lib/bshclient.jar,file:/usr/share/jmeter/lib/jorphan.jar,file:/usr/share/jmeter/lib/ext/ApacheJMeter_components.jar,file:/usr/share/jmeter/lib/ext/ApacheJMeter_core.jar,file:/usr/share/jmeter/lib/ext/ApacheJMeter_functions.jar,file:/usr/share/jmeter/lib/ext/ApacheJMeter_monitors.jar,file:/usr/share/jmeter/lib/ext/ApacheJMeter_report.jar,file:/usr/share/jmeter/lib/junit/test.jar], parent=gnu.gcj.runtime.SystemClassLoader{urls=[file:/usr/share/jmeter/bin/ApacheJMeter.jar], parent=gnu.gcj.runtime.ExtensionClassLoader{urls=[], parent=null}}}
+   at java.net.URLClassLoader.findClass(libgcj.so.14)
+   at java.lang.ClassLoader.loadClass(libgcj.so.14)
+   at java.lang.ClassLoader.loadClass(libgcj.so.14)
+   at java.lang.Class.forName(libgcj.so.14)
+   at org.apache.jmeter.save.SaveService.registerConverter(SaveService.java:294)
+   at org.apache.jmeter.save.SaveService.initProps(SaveService.java:247)
+   at org.apache.jmeter.save.SaveService.<clinit>(SaveService.java:188)
+   at java.lang.Class.initializeClass(libgcj.so.14)
+   at org.apache.jmeter.gui.action.Save.doAction(Save.java:139)
+   at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:79)
+   at org.apache.jmeter.gui.action.ActionRouter.access$000(ActionRouter.java:40)
+   at org.apache.jmeter.gui.action.ActionRouter$1.run(ActionRouter.java:61)
+   at java.awt.event.InvocationEvent.dispatch(libgcj.so.14)
+   at java.awt.EventQueue.dispatchEvent(libgcj.so.14)
+   at java.awt.EventDispatchThread.run(libgcj.so.14)
+
+2014/03/03 00:30:09 WARN  - jmeter.save.SaveService: Can't register a converter: org.apache.jmeter.protocol.http.util.HTTPResultConverter java.lang.ClassNotFoundException: org.apache.jmeter.protocol.http.util.HTTPResultConverter not found in org.apache.jmeter.DynamicClassLoader{urls=[file:/usr/share/jmeter/lib/bshclient.jar,file:/usr/share/jmeter/lib/jorphan.jar,file:/usr/share/jmeter/lib/ext/ApacheJMeter_components.jar,file:/usr/share/jmeter/lib/ext/ApacheJMeter_core.jar,file:/usr/share/jmeter/lib/ext/ApacheJMeter_functions.jar,file:/usr/share/jmeter/lib/ext/ApacheJMeter_monitors.jar,file:/usr/share/jmeter/lib/ext/ApacheJMeter_report.jar,file:/usr/share/jmeter/lib/junit/test.jar], parent=gnu.gcj.runtime.SystemClassLoader{urls=[file:/usr/share/jmeter/bin/ApacheJMeter.jar], parent=gnu.gcj.runtime.ExtensionClassLoader{urls=[], parent=null}}}
+   at java.net.URLClassLoader.findClass(libgcj.so.14)
+   at java.lang.ClassLoader.loadClass(libgcj.so.14)
+   at java.lang.ClassLoader.loadClass(libgcj.so.14)
+   at java.lang.Class.forName(libgcj.so.14)
+   at org.apache.jmeter.save.SaveService.registerConverter(SaveService.java:294)
+   at org.apache.jmeter.save.SaveService.initProps(SaveService.java:247)
+   at org.apache.jmeter.save.SaveService.<clinit>(SaveService.java:188)
+   at java.lang.Class.initializeClass(libgcj.so.14)
+   at org.apache.jmeter.gui.action.Save.doAction(Save.java:139)
+   at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:79)
+   at org.apache.jmeter.gui.action.ActionRouter.access$000(ActionRouter.java:40)
+   at org.apache.jmeter.gui.action.ActionRouter$1.run(ActionRouter.java:61)
+   at java.awt.event.InvocationEvent.dispatch(libgcj.so.14)
+   at java.awt.EventQueue.dispatchEvent(libgcj.so.14)
+   at java.awt.EventDispatchThread.run(libgcj.so.14)
+
+2014/03/03 00:30:09 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1382180 
+2014/03/03 00:30:09 INFO  - jmeter.save.SaveService: All converter versions present and correct 
